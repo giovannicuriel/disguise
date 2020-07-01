@@ -34,12 +34,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'super_package==1.0.0'
-    ],
-    extras_require={
-        "dev": [
-            "pytest==4.0.0",
-            "pytest-cov==2.6.0"
-        ]
-    }
+        "PyQt5==5.15.0",
+        "PyQt5-sip==12.8.0"
+    ]
 )
