@@ -11,20 +11,20 @@ with io.open('README.md', 'rt', encoding='utf8') as f:
     README = f.read()
 
 setup(
-    name='SampleModule',
+    name='giovannicuriel.disguise',
     version='1.0.0',
-    url='http://github.com/giovannicuriel/python-project',
+    url='http://github.com/giovannicuriel/disguise',
     project_urls=OrderedDict((
-        ('Code', 'https://github.com/giovannicuriel/python-project.git'),
-        ('Issue tracker', 'https://github.com/giovannicuriel/python-project/issues'),
+        ('Code', 'https://github.com/giovannicuriel/disguise.git'),
+        ('Issue tracker', 'https://github.com/giovannicuriel/disguise/issues'),
     )),
     license='BSD-3-Clause',
     author='Giovanni Curiel dos Santos',
     author_email='giovannicuriel@gmail.com',
-    maintainer='dojot team',
-    description='Sample project structure for Python modules',
+    maintainer='Giovanni Curiel dos Santos',
+    description='GUI for dis module (disassembler) from Python',
     long_description=README,
-    packages=["sample_package"],
+    packages=["giovannicuriel.disguise"],
     include_package_data=True,
     zip_safe=False,
     platforms=[any],
