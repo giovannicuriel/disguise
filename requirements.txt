@@ -12,7 +12,7 @@ Pygments==2.19.2
 PyQt5==5.15.11
 PyQt5-Qt5==5.15.17
 PyQt5_sip==12.17.0
-requests==2.32.4
+requests==2.33.0
 roman-numerals-py==3.1.0
 snowballstemmer==3.0.1
 Sphinx==8.2.3
